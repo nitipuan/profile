@@ -1,0 +1,247 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>My profile</title>
+<!--
+Newline Template
+http://www.templatemo.com/tm-503-newline
+-->
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+        <ling rel="stylesheet" href="css/graph_myskills.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+
+    <body>
+
+        <div class="overlay"></div>
+        <section class="top-part">
+          <video controls autoplay loop>
+            <source src="videos/video.mp4" type="video/mp4">
+            <source src="videos/video.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+        </section>
+        
+        <section class="cd-hero">
+
+          <div class="cd-slider-nav">
+            <nav>
+              <span class="cd-marker item-1"></span>
+              <ul>
+                <!-- เมนูู -->
+                <li class="selected"><a href="#0"><div class="image-icon"><img src="img/home-icon.png"></div><h6>Welcome</h6></a></li>
+                <li><a href="#about-us"><div class="image-icon"><img src="img/about-icon.png"></div><h6>About me</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/featured-icon.png"></div><h6>My skills</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/projects-icon.png"></div><h6>Projects</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/contact-icon.png"></div><h6>Contact me</h6></a></li>
+              </ul>
+            </nav> 
+          </div> <!-- .cd-slider-nav -->
+
+          <ul class="cd-hero-slider">
+
+            <li class="selected">
+              <div class="heading">
+                <h2 class="color_font">Hello, my name is</h2>
+                <span><h1>Niti  Puangsema</h1> </span>
+                <div class="text-container" id="text-container">
+                  <h4 class="color_font">And I'm a <a id="changing-text" class="changing-text"></a></h4>
+                </div>
+              </div>
+              <div class="center"> 
+                <div class="primary-button">
+                  <a href="0">About me</a>
+                </div>
+              </div>
+
+              <script>
+                const changingText = document.getElementById("changing-text");
+                const texts = ["Data Science", "Front End Developer", "Data Analysis"];
+                let index = 0;
+        
+                function changeText() {
+                    changingText.textContent = texts[index];
+                    index = (index + 1) % texts.length;
+                }
+        
+                setInterval(changeText, 2000);
+            </script>
+
+  
+            </li>
+            <li >
+              <div class="heading">
+                <h1>About me</h1>
+                <span>---who i am---</span> 
+              </div>
+              <div class="cd-half-width second-slide">   
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="content second-content">
+                        <div class="row">
+                          <div class="col-md-7 left-image">
+                            <img src="img/left-about-image.jpg">
+                          </div>
+                          <div class="col-md-5">
+                            <div class="right-about-text">
+                              <h4>I'am Niti Puangsema </h4>
+                              <p><h5>&#8226; Name : Niti Puangsema</h5></p>
+                              <p><h5>&#8226; Nickname : Aut</h5></p>
+                              <p><h5>&#8226; City : Nonthaburi</h5></p>
+                              <p><h5>&#8226; Current Address : Nonthaburi</h5></p>
+                              <p><h5>&#8226; Email : nitipuangsema@gmail.com</h5></p>
+                              <p><h5>&#8226; Phone : 093-115-4707</h5></p>
+                              
+
+                              <h4>Education</h4>
+                              <p><h5> ปัจจุบันศึกษาอยู่ที่มหาลัยมหาวิทยาลัยกรุงเทพ</h5></p>
+                              <p><h5>&#8226; คณะเทคโนโลยีสารสนเทศและนวัตกรรม</h5></p>
+                              <p><h5>&#8226; สาขาวิทยาการคอมพิวเตอร์</h5></p>
+                              <p><h5>&#8226; GPA : 3.05</h5></p>
+                              
+                            </div>
+                          </div>
+                        </div>
+        
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="heading">
+                <h1>My skills</h1>
+                <span>---who i am---</span> 
+              </div>
+              <div class="cd-half-width third-slide">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="content third-content">
+                        <div class="row">
+          
+                          <div class="col-md-5">
+                            <div class="right-feature-text">
+                              <div class="eb-progress-bar-wrapper">
+                                fdlsldsgkd
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="heading">
+                <h1>Our projects</h1>
+                <span>Here you can check our recent projects</span> 
+              </div>
+              <div class="cd-half-width fourth-slide">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="content fourth-content">
+                        <div class="row">
+                          <div class="col-md-3 project-item">
+                            <a href="img/item-01.jpg" data-lightbox="image-1"><img src="img/project-item-01.jpg"></a>
+                          </div>
+                          <div class="col-md-3 project-item">
+                            <a href="img/item-02.jpg" data-lightbox="image-1"><img src="img/project-item-02.jpg"></a>
+                          </div>
+                          <div class="col-md-3 project-item">
+                            <a href="img/item-03.jpg" data-lightbox="image-1"><img src="img/project-item-03.jpg"></a>
+                          </div>
+                          <div class="col-md-3 project-item">
+                            <a href="img/item-04.jpg" data-lightbox="image-1"><img src="img/project-item-04.jpg"></a>
+                          </div>
+                          <div class="col-md-3 project-item">
+                            <a href="img/item-05.jpg" data-lightbox="image-1"><img src="img/project-item-05.jpg"></a>
+                          </div>
+                          <div class="col-md-3 project-item">
+                            <a href="img/item-06.jpg" data-lightbox="image-1"><img src="img/project-item-06.jpg"></a>
+                          </div>
+                          <div class="col-md-3 project-item">
+                            <a href="img/item-07.jpg" data-lightbox="image-1"><img src="img/project-item-07.jpg"></a>
+                          </div>
+                          <div class="col-md-3 project-item">
+                            <a href="img/item-08.jpg" data-lightbox="image-1"><img src="img/project-item-08.jpg"></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="heading">
+                <h1>Contact me</h1>
+                <span>---Contact me---</span> 
+              </div>
+              <div class="cd-half-width fivth-slide">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="content fivth-content">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="left-info">
+                              <h4>Get in Touch</h4>
+                              <p><h5> Name :</h5></p>
+                              <p><h5> Niti Puangsema</h5></p>
+
+                              <p><h5> Phone :</h5></p>
+                              <p><h5> 093-115-4707</h5></p>
+
+                              <p><h5> Email :</h5></p>
+                              <p><h5> nitipuangsema@gmail.com</h5></p>
+
+                              
+                            </div>
+                          </div>
+                          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
+            </li>
+          </ul> <!-- .cd-hero-slider -->
+        </section> <!-- .cd-hero -->
+
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
